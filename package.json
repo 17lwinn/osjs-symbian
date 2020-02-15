@@ -4,6 +4,7 @@
   "description": "OS.js v3",
   "main": "index.js",
   "scripts": {
+    "start": "bash start.sh",
     "test": "npm run eslint && npm run stylelint",
     "eslint": "eslint 'src/client/**/*.js' 'src/server/**/*.js'",
     "stylelint": "stylelint 'src/client/*.scss'",
@@ -65,6 +66,7 @@
     "@osjs/settings-application": "^1.1.2",
     "@osjs/standard-theme": "^4.0.7",
     "@osjs/textpad-application": "^1.2.4",
+    "@osjs/writer-application": "^0.1.0",
     "hyperapp": "^1.2.10",
     "typeface-roboto": "0.0.75"
   },
