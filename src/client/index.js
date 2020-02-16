@@ -67,7 +67,6 @@ const init = () => {
   osjs.register(PanelServiceProvider);
   osjs.register(DialogServiceProvider);
   osjs.register(GUIServiceProvider);
-  osjs.register(require("osjs-hardware-provider/client.js"));
 
   osjs.boot();
 };
