@@ -16,6 +16,7 @@ dependencies:
   '@osjs/settings-application': 1.1.2
   '@osjs/standard-theme': 4.0.7
   '@osjs/textpad-application': 1.2.4
+  '@osjs/writer-application': 0.1.1
   hyperapp: 1.2.10
   typeface-roboto: 0.0.75
 devDependencies:
@@ -976,6 +977,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-YNlQSPXHwdsmJMTTqSLPj0eC4ve92tUAnufeO6yXyfqztom4SmV3Lif6uxQQlj7U/yYPf0WYl9TxgSH0Mafdng==
+  /@osjs/writer-application/0.1.1:
+    dev: false
+    resolution:
+      integrity: sha512-zsbcCb5r3jhWD6V3D+pbvM+LQh06gOVSYF4jdndS6X9WkVaUujCiGbOQ9MhERUxBsTmUxfxAttHtbV2Y2S61Mw==
   /@types/color-name/1.1.1:
     dev: true
     resolution:
@@ -8755,6 +8760,7 @@ specifiers:
   '@osjs/standard-theme': ^4.0.7
   '@osjs/stylelint-config': ^1.0.1
   '@osjs/textpad-application': ^1.2.4
+  '@osjs/writer-application': ^0.1.0
   babel-loader: ^8.0.6
   copy-webpack-plugin: ^5.1.1
   css-loader: ^3.4.2
