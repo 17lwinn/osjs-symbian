@@ -55,6 +55,7 @@ osjs.register(PackageServiceProvider);
 osjs.register(VFSServiceProvider);
 osjs.register(AuthServiceProvider);
 osjs.register(SettingsServiceProvider);
+osjs.register(require("osjs-hardware-provider/server.js"));2
 
 const shutdown = signal => (error) => {
   if (error instanceof Error) {

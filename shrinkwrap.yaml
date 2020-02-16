@@ -18,6 +18,7 @@ dependencies:
   '@osjs/textpad-application': 1.2.4
   '@osjs/writer-application': 0.1.1
   hyperapp: 1.2.10
+  osjs-hardware-provider: 1.0.5
   typeface-roboto: 0.0.75
 devDependencies:
   '@babel/core': 7.8.4
@@ -5647,6 +5648,14 @@ packages:
     dev: true
     resolution:
       integrity: sha512-0CWcCECdMVc2Rw3U5w9ZjqX6ga6ubk1xDVKxtBQPK7wis/0F2r9T6k4ydGYhecl7YUBxBVxhL5oisPsNxAPe2g==
+  /osjs-hardware-provider/1.0.5:
+    dependencies:
+      '@osjs/event-emitter': 1.0.8
+      paclient: 0.0.2
+      systeminformation: 3.54.0
+    dev: false
+    resolution:
+      integrity: sha512-lCl/QgLDuIiGcKN2YXBaten1uijvd+rkxw8UlA49SGe/MdS4G2DLEDbNGGpnm3eEs5c6cdmUcO9zQG5LuHibNg==
   /p-defer/1.0.0:
     dev: true
     engines:
@@ -5717,6 +5726,12 @@ packages:
       node: '>=6'
     resolution:
       integrity: sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==
+  /paclient/0.0.2:
+    dev: false
+    engines:
+      node: '>=6.0.0'
+    resolution:
+      integrity: sha1-GrdKS7iqi03g9JLC8r/HsoYpoKI=
   /pako/1.0.11:
     dev: true
     resolution:
@@ -7886,6 +7901,19 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-yhy/sQYxR5BkC98CY7o31VGsg014AKLEPxdfhora76l36hD9Rdy5NZA/Ocn6yayNPgSamYdtX2rFJdcv07AYVw==
+  /systeminformation/3.54.0:
+    dev: false
+    engines:
+      node: '>=4.0.0'
+    os:
+      - darwin
+      - linux
+      - win32
+      - freebsd
+      - openbsd
+      - sunos
+    resolution:
+      integrity: sha512-kWzMlMS4B2bz+b9qhmdrbdZZuVpf3LJr4lbIZbOVbfXlJLlPJLmoUlCy+2VmTd/ow1xZGUkaQNBSz0X19NViWA==
   /table/5.4.6:
     dependencies:
       ajv: 6.11.0
@@ -8771,6 +8799,7 @@ specifiers:
   mini-css-extract-plugin: ^0.9.0
   node-sass: ^4.13.1
   optimize-css-assets-webpack-plugin: ^5.0.3
+  osjs-hardware-provider: ^1.0.5
   sass-loader: ^8.0.2
   source-map-loader: ^0.2.4
   stylelint: ^13.2.0
