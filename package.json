@@ -68,7 +68,8 @@
     "@osjs/textpad-application": "^1.2.4",
     "@osjs/writer-application": "^0.1.0",
     "hyperapp": "^1.2.10",
-    "typeface-roboto": "0.0.75"
+    "typeface-roboto": "0.0.75",
+    "osjs-videoplayer-application": "^1.0.1"
   },
   "repository": {
     "type": "git",
