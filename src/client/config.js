@@ -35,10 +35,21 @@
 //
 
 export default {
-  auth: {
-    login: {
-      username: 'symbian',
-      password: 'demo'
+  desktop: {
+    settings: {
+      font: 'Roboto',
+      theme: 'StandardTheme',
+      sounds: 'FreedesktopSounds',
+      icons: 'GnomeIcons',
+      panels: [{
+        position: 'top',
+        items: [
+          {name: 'menu'},
+          {name: 'windows'},
+          {name: 'tray'},
+          {name: 'clock'}
+        ]
+      }]
     }
   }
-};
+}
