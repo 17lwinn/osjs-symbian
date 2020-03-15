@@ -37,7 +37,7 @@
 export default {
   auth: {
     login: {
-      username: 'demo',
+      username: 'symbian',
       password: 'demo'
     }
   }
