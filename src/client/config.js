@@ -34,11 +34,30 @@
 // Complete config tree: https://github.com/os-js/osjs-client/blob/master/src/config.js
 //
 
-export default {
-  auth: {
-    login: {
-      username: 'demo',
-      password: 'demo'
+/* src/client/wallpaper.png */
+import wallpaper from './favicon.png';
+
+module.exports = {
+  desktop: {
+    settings: {
+      font: 'Roboto',
+      theme: 'StandardTheme',
+      sounds: 'FreedesktopSounds',
+      icons: 'GnomeIcons',
+      panels: [{
+        position: 'top',
+        items: [
+          {name: 'menu'},
+          {name: 'windows'},
+          {name: 'tray'},
+          {name: 'clock'}
+        ]
+      }],
+      background: {
+        src: wallpaper,
+        color: '#000',
+        style: 'cover'
+      }
     }
   }
 };
