@@ -1,23 +1,23 @@
 dependencies:
-  '@osjs/calculator-application': 1.2.7
-  '@osjs/cli': 3.0.22
-  '@osjs/client': 3.1.21
-  '@osjs/dialogs': 3.0.17
-  '@osjs/draw-application': 1.2.6
-  '@osjs/filemanager-application': 1.4.0
-  '@osjs/freedesktop-sounds': 3.0.2
-  '@osjs/gnome-icons': 4.0.4
-  '@osjs/gui': 4.0.30
-  '@osjs/htmlviewer-application': 1.2.5
-  '@osjs/musicplayer-application': 1.2.7
-  '@osjs/panels': 3.0.23
-  '@osjs/preview-application': 1.1.15
-  '@osjs/server': 3.0.55
-  '@osjs/settings-application': 1.1.4
-  '@osjs/standard-theme': 4.0.8
-  '@osjs/textpad-application': 1.2.6
-  '@osjs/writer-application': 0.1.1
-  hyperapp: 1.2.10
+  '@osjs/calculator-application': 1.2.8
+  '@osjs/cli': 3.0.24
+  '@osjs/client': 3.1.27
+  '@osjs/dialogs': 3.0.19
+  '@osjs/draw-application': 1.2.7
+  '@osjs/filemanager-application': 1.4.2
+  '@osjs/freedesktop-sounds': 3.0.3
+  '@osjs/gnome-icons': 4.0.5
+  '@osjs/gui': 4.0.32
+  '@osjs/htmlviewer-application': 1.2.6
+  '@osjs/musicplayer-application': 1.2.8
+  '@osjs/panels': 3.0.26
+  '@osjs/preview-application': 1.1.17
+  '@osjs/server': 3.0.56
+  '@osjs/settings-application': 1.1.5
+  '@osjs/standard-theme': 4.0.9
+  '@osjs/textpad-application': 1.2.7
+  '@osjs/writer-application': 0.1.2
+  hyperapp: 2.0.4
   typeface-roboto: 0.0.75
 devDependencies:
   '@babel/core': 7.8.4
@@ -792,6 +792,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-jBD+G8+LWpMBBWvVcdr4QysjUE4mU/syrhN17o1u3gx0/WzJB1kwiVZAXRtWbsIPOwW8pF/YJV5+nmetPzepXg==
+  /@iarna/rtf-to-html/1.1.0:
+    dependencies:
+      rtf-parser: 1.3.3
+    dev: false
+    resolution:
+      integrity: sha512-2bmUxotlWMfDMkjMidIMyoQfuK+QitW0Ys2T098WrgBvPZUV5NN5EvD1vuONrmAtweCDwagmQf6NxRtSbq+siQ==
   /@mrmlnc/readdir-enhanced/2.2.1:
     dependencies:
       call-me-maybe: 1.0.1
@@ -826,14 +832,14 @@ packages:
       node: '>= 8'
     resolution:
       integrity: sha512-1V9XOY4rDW0rehzbrcqAmHnz8e7SKvX27gh8Gt2WgB0+pdzdiLV83p72kZPU+jvMbS1qU5mauP2iOvO8rhmurQ==
-  /@osjs/calculator-application/1.2.7:
+  /@osjs/calculator-application/1.2.8:
     dependencies:
-      '@osjs/gui': 4.0.30
+      '@osjs/gui': 4.0.32
       hyperapp: 1.2.10
     dev: false
     resolution:
-      integrity: sha512-Lt99HCd3JUH4Ndc/m6Y4qXLXLHcv70D24ZqgErGqNavcDIQvxiTYyl8R6YgnwNbSPshYt2ORruvj6hlN3bE3Yw==
-  /@osjs/cli/3.0.22:
+      integrity: sha512-iJhioMhTRaNhvndnWblKg50vU+5B4Ddl7Ftzoawc8BZFYz9PVMHSC2MzJyGNJtHzWTZSgSsfScvpkRCxoMmcmA==
+  /@osjs/cli/3.0.24:
     dependencies:
       commander: 4.1.1
       consola: 2.11.3
@@ -848,10 +854,10 @@ packages:
       node: '>=8.0'
     hasBin: true
     resolution:
-      integrity: sha512-H0zo5fSU3Cmhym4+ifpKVQZoT03rbMkU3feQylDBFhNflM3irYVTRXjRwMB4YeYsqfF7sTocd7Y8clAVjJry+g==
-  /@osjs/client/3.1.21:
+      integrity: sha512-kStWEc8IG427ijz6ekbdRDj/DAsAiU4YOxh2wCuO/s5N+JARUu6GXXInUldxE8r8GKQ0tmexzRkDcKr/0xW+iA==
+  /@osjs/client/3.1.27:
     dependencies:
-      '@osjs/common': 3.0.6
+      '@osjs/common': 3.0.7
       '@osjs/event-emitter': 1.0.8
       css-mediaquery: 0.1.2
       dateformat: 3.0.3
@@ -860,8 +866,8 @@ packages:
       simplejsonconf: 2.0.7
     dev: false
     resolution:
-      integrity: sha512-6MTdz09um31dfItzrE0SMga+hFNfRbFNtpXRZLJ9YYKG2bW5cjGv42JCAK53+qcDmlcR9yZI43zpYMuWEWxSjw==
-  /@osjs/common/3.0.6:
+      integrity: sha512-t5B8bFz/IBboTRRP+nO3enIA0SekIsx9A2Pkw5kX6haHutKMSkuidjGzZTC0zxSZySJvW3nkVh+hc58JLq0Xlg==
+  /@osjs/common/3.0.7:
     dependencies:
       '@osjs/event-emitter': 1.0.8
       async-dependency-graph: 1.1.2
@@ -869,23 +875,23 @@ packages:
       omit-deep: 0.3.0
     dev: false
     resolution:
-      integrity: sha512-AD9EZWPkmzqk4jNtiYbo9I43t3dUYRBl+Fv9pciOeYgHg6/RLpx3u8kaIyHRWRfueyiifyLTel53/51VccIreg==
-  /@osjs/dialogs/3.0.17:
+      integrity: sha512-0Tzk/EuWu2LOiRZ6C9X7zRNtta6bOPkboOFLMA2HCgbyUeSoW4wIbFdH/Fyab9100x1krYUOTQeuMyNxOcKr3A==
+  /@osjs/dialogs/3.0.19:
     dependencies:
-      '@osjs/gui': 4.0.30
+      '@osjs/gui': 4.0.32
       deepmerge: 2.2.1
       hyperapp: 1.2.10
       is-plain-object: 2.0.4
     dev: false
     resolution:
-      integrity: sha512-UC3ZDgc4cx8H+M21NQbVDiz7RL5G0hACF4j6x7kAFrrduobgPlZML2KKO3UOL4IejKzmoDXlmeKCH4oWkS2S3w==
-  /@osjs/draw-application/1.2.6:
+      integrity: sha512-zI4S2YBnZlZ9A6bnMXBuRIPM81QuBjdsqv0QAoq/eOcp60QbrmlzFvaekr8ZcRe6Mi9k364klPntGfY7HCTt3A==
+  /@osjs/draw-application/1.2.7:
     dependencies:
-      '@osjs/gui': 4.0.30
+      '@osjs/gui': 4.0.32
       hyperapp: 1.2.10
     dev: false
     resolution:
-      integrity: sha512-mplkRasnuVX5IaBOhOs2cxoTByRkK7X3SPfJGIHlaX8AAr9IDN06PJsj4DcB2GmQtZUH8J0sWvvmHzCXOaVSuA==
+      integrity: sha512-ooX+N/GKXeNtpxhe9p7W8hX6XDuYZ/AlfH/c8y+PbqCweceVbk+Qwh5YTk9kpEKtu3sziyOOxhjkh5l2w8BTnQ==
   /@osjs/eslint-config/1.0.2:
     dev: true
     peerDependencies:
@@ -896,60 +902,60 @@ packages:
     dev: false
     resolution:
       integrity: sha512-eNOxNEOyTJSWEBpdU5GSFAs356yYLO5qRLIIko7eMUvqmLGDj179sP5wSRJM2TXylAublIxTS++EuEv4c8+rpA==
-  /@osjs/filemanager-application/1.4.0:
+  /@osjs/filemanager-application/1.4.2:
     dependencies:
-      '@osjs/gui': 4.0.30
+      '@osjs/gui': 4.0.32
       hyperapp: 1.2.10
     dev: false
     resolution:
-      integrity: sha512-iFuJ64hkuotnCCDP5Yj+ojUl4bfLQMVOk7BnPP9R8nUwxE9ssnGIoOekqLIpRv567jZBB0ESr9tnNPpu6c1Ucw==
-  /@osjs/freedesktop-sounds/3.0.2:
+      integrity: sha512-yVI/NIzPJMOUr6pk87OVgepIEDlW4IYtlXO2fccPFUnGJU6GKdSy2Zt3iC4WHMt/z0Igjg0xDtUCGGh3VP4fTw==
+  /@osjs/freedesktop-sounds/3.0.3:
     dev: false
     resolution:
-      integrity: sha512-EfabfJV/7c167lAltqFFQ4dMQDnS/5nuwaZ31jQkBG5i2kKrxYS6mHCYnXdNv7fZAPpiV96K7RFNZGlTyvZGVg==
-  /@osjs/gnome-icons/4.0.4:
+      integrity: sha512-Fw06+Zc0uTJTciSlchkekmjFomrVOM3X2PapNqKxchqG2ud3nDOR9zPhJZIGTliG51/EJPRuKoN+xb1LP6/dDA==
+  /@osjs/gnome-icons/4.0.5:
     dev: false
     resolution:
-      integrity: sha512-DMipyPyBU9WNlGsPZvsfoIFNo7svWCdgkchLgGOeuji40U/PNgvA7BNMqT/uqJQisaAKGNQF36nny0jfWoWE4w==
-  /@osjs/gui/4.0.30:
+      integrity: sha512-PfpHn7X6CZ5Ro1A7lU2kxxBY720jfKABQ6z0ltwpJu76vBOVhxE9xJvwVzild12HrzEktHv2BBJF0l0MjSf9mQ==
+  /@osjs/gui/4.0.32:
     dependencies:
       hyperapp: 1.2.10
       hyperapp-nestable: /hyperapp-nestable/1.1.0/hyperapp@1.2.10
     dev: false
     resolution:
-      integrity: sha512-4PgA9ZtXX1glR4VB1keGXCDRrG2L+KbsJU1KUNyYQ9dahypJCOzOnszwetCgR09Y/3uVM+Cx7QTcS7kXjG8vWQ==
-  /@osjs/htmlviewer-application/1.2.5:
+      integrity: sha512-PxedCy7qvgpofqVTtWbvgOHBP4pFlDcqszUGreCUPwABxiEfn5DTTVkKhgg/aPEAUaDgeO4W7CWN1z9iqdFpJA==
+  /@osjs/htmlviewer-application/1.2.6:
     dependencies:
-      '@osjs/gui': 4.0.30
+      '@osjs/gui': 4.0.32
       hyperapp: 1.2.10
     dev: false
     resolution:
-      integrity: sha512-UjKwymu85d7ndaOWGMUH6jF/Wwyy+AwuvHgzWRzoheDv7N9aMkrh0b2fksGSk5u/HthRdYflac/wp1EpBikM5w==
-  /@osjs/musicplayer-application/1.2.7:
+      integrity: sha512-yjzAItNnwOdASnKs2nSouk550rNBqzlmSCJL04BX8P5Ve07xJgHAui4oSqisw4IvZxcEG+gVeitiLUkD8q1doA==
+  /@osjs/musicplayer-application/1.2.8:
     dependencies:
-      '@osjs/gui': 4.0.30
+      '@osjs/gui': 4.0.32
       hyperapp: 1.2.10
       music-metadata: 3.8.0
     dev: false
     resolution:
-      integrity: sha512-9hBgjIKM9cKLKnDeDwSnDrnsZ8g8Pxtk1pHKJu4uGQ7nvJKiDHyhkR9viH6piMafx3MKWrTyp0uIA+oClQ7Y5g==
-  /@osjs/panels/3.0.23:
+      integrity: sha512-zHvzrQLna/GS1GlCgtH0Hd/W7ZPAYrmuihL6DOcjbswIHkT7MNN7yFvaq5DS3vY2zTrFwAmujhqxWrKU/I5SQA==
+  /@osjs/panels/3.0.26:
     dependencies:
       '@osjs/event-emitter': 1.0.8
       hyperapp: 1.2.10
     dev: false
     resolution:
-      integrity: sha512-ZH7w/iplGcS7nSCi33NLQct0kEA75qZcxU0klTeg7QNCMbflskrbh77ih0zEu3nJbTLCqLMGUpDVHQNwCFaOmg==
-  /@osjs/preview-application/1.1.15:
+      integrity: sha512-c944MElTJtPDz70Ki/oB2K8qDkiVNwyMiM3wKYBDSzm/25gP+aAJfEh5MTj/T5WVbgbP1I0gNU3WwDWR9BJzhA==
+  /@osjs/preview-application/1.1.17:
     dependencies:
-      '@osjs/gui': 4.0.30
+      '@osjs/gui': 4.0.32
       hyperapp: 1.2.10
     dev: false
     resolution:
-      integrity: sha512-cb0FSZg0urmgp32qMflNeN0DyTwLLF8H5elb52RbN14pNA6qnYIowSeDzICujbJ9L5Po4lmfv8/5tF28BqeYFw==
-  /@osjs/server/3.0.55:
+      integrity: sha512-2yQ9YnFiMJAfomqbRv4I8EAv35HBoXo7FsGCFem8noO1NUSlNwL3SY7ZKHGaT0ZQSLTDlT2fiLifaZH2RWEtzQ==
+  /@osjs/server/3.0.56:
     dependencies:
-      '@osjs/common': 3.0.6
+      '@osjs/common': 3.0.7
       body-parser: 1.19.0
       chokidar: 3.3.1
       connect-loki: 1.1.0
@@ -961,10 +967,10 @@ packages:
       express-ws: /express-ws/4.0.0/express@4.17.1
       fast-glob: 2.2.7
       filehound: 1.17.4
-      formidable: 1.2.1
+      formidable: 1.2.2
       fs-extra: 8.1.0
       mime: 2.4.4
-      minimist: 1.2.0
+      minimist: 1.2.5
       morgan: 1.9.1
       nocache: 2.1.0
       sanitize-filename: 1.6.3
@@ -973,18 +979,18 @@ packages:
     engines:
       node: '>=8.0.0'
     resolution:
-      integrity: sha512-3Iykzv9fnBJXSZGwcLxadAa3hSMIEbl8yhYDYYObmAxQo8tvKWfe21glRxlIkMXnCeN4n0j2Q8IZPXlbs8Rnjg==
-  /@osjs/settings-application/1.1.4:
+      integrity: sha512-nK6j9ZkS7YlCgAc4oxpKUXZ/KK46erhdiVg/vthNlKuxbGE0xFQCseVufcdwbY19xLpkquYkZRxy5ZlGyTZQCg==
+  /@osjs/settings-application/1.1.5:
     dependencies:
-      '@osjs/gui': 4.0.30
+      '@osjs/gui': 4.0.32
       hyperapp: 1.2.10
     dev: false
     resolution:
-      integrity: sha512-HpkM9IerISwqb+rbU03UBjKd8KttKcHKKAFCfHFwE4lenKqhGEUAIBKsh/5PA+wotronu1Ezc7obXvuAncG2GA==
-  /@osjs/standard-theme/4.0.8:
+      integrity: sha512-UIYA1Y73GAD2Nxpho4j8giK9HlZmLnCUOcR84Qnj110VbnmdGHxg3/aw5UoF1QxnJCkyCw0dfyMXN47ouxSvug==
+  /@osjs/standard-theme/4.0.9:
     dev: false
     resolution:
-      integrity: sha512-Eo0PgEeetMCh27I2JQJe03D0p7TSM42qC1DmE17ZRaJm8V6Er0ZNdOvpBaKdMftGw2QcDjDF+onEwp6tzPhmVQ==
+      integrity: sha512-YIUelSbBlSXpVY36yEkfsoYcCIS0ZtnLtcREzx7LqYcjGPdeSn09ns9AN39RdMMAvrPCPBA1wNPuwdLxbg7mlQ==
   /@osjs/stylelint-config/1.0.1:
     dependencies:
       stylelint: 12.0.1
@@ -993,17 +999,21 @@ packages:
     dev: true
     resolution:
       integrity: sha512-8/uvaxHbDaIDqrc1zDH33dpP02ws9gwRetutWWFAZ5ZWPF5y0p/hVX4t2W8J0u0y5+InabWSQVVynMP47UNqXg==
-  /@osjs/textpad-application/1.2.6:
+  /@osjs/textpad-application/1.2.7:
     dependencies:
-      '@osjs/gui': 4.0.30
+      '@osjs/gui': 4.0.32
       hyperapp: 1.2.10
     dev: false
     resolution:
-      integrity: sha512-9RdKN8RcvcCD/TxpV2GCLlMYCqnzPPBy2TYJuBBIOL+E6L5//T+1vUlk42i3/CYOhmuQy0hH+/wRXXcRIOEGYQ==
-  /@osjs/writer-application/0.1.1:
+      integrity: sha512-7u9X7qiGZy7/Pr/fO67HAE51bdvd7vV+37Qc6yeWEOpa5KoGpji08L0MyhiU30PaiL8P2DT6nrdcSprr70Xj/w==
+  /@osjs/writer-application/0.1.2:
+    dependencies:
+      '@iarna/rtf-to-html': 1.1.0
+      '@osjs/gui': 4.0.32
+      hyperapp: 1.2.10
     dev: false
     resolution:
-      integrity: sha512-zsbcCb5r3jhWD6V3D+pbvM+LQh06gOVSYF4jdndS6X9WkVaUujCiGbOQ9MhERUxBsTmUxfxAttHtbV2Y2S61Mw==
+      integrity: sha512-zjZm/Hxdf54IZUa4Bi1tps8baOoIshzw7UX/zZWRa2Z7e5mc7dp5VhSuG675ArdTrZCXzQnHxtZMXX8rWaaUnw==
   /@types/color-name/1.1.1:
     dev: true
     resolution:
@@ -2285,7 +2295,6 @@ packages:
     resolution:
       integrity: sha512-zAa3IZPvsJ0slViBQ2z+vgyyTuhd3MFn1rBQjZSKVEgB0UMYhUkCj9jJUVPgGTGqWvsBVmfnruXgTcNyTlEiSA==
   /core-util-is/1.0.2:
-    dev: true
     resolution:
       integrity: sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
   /cosmiconfig/5.2.1:
@@ -3175,7 +3184,7 @@ packages:
       on-finished: 2.3.0
       parseurl: 1.3.3
       path-to-regexp: 0.1.7
-      proxy-addr: 2.0.5
+      proxy-addr: 2.0.6
       qs: 6.7.0
       range-parser: 1.2.1
       safe-buffer: 5.1.2
@@ -3479,10 +3488,10 @@ packages:
       node: '>= 0.12'
     resolution:
       integrity: sha512-1lLKB2Mu3aGP1Q/2eCOx0fNbRMe7XdwktwOruhfqqd0rIJWwN4Dh+E3hrPSlDCXnSR7UtZ1N38rVXm+6+MEhJQ==
-  /formidable/1.2.1:
+  /formidable/1.2.2:
     dev: false
     resolution:
-      integrity: sha512-Fs9VRguL0gqGHkXS5GQiMCr1VhZBxz0JnJs4JmMp/2jL18Fmbzvv7vOFRU+U8TBkHEE/CX1qDXzJplVULgsLeg==
+      integrity: sha512-V8gLm+41I/8kguQ4/o1D3RIHRmhYFG4pnNyonvua+40rqcEmT4+V71yaZ3B457xbbgCsCfjSPi65u/W6vK1U5Q==
   /forwarded/0.1.2:
     dev: false
     engines:
@@ -4038,6 +4047,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-6htzCy/Y9QiSXyUGgZhfTqW0NtK7uMlaGS2t/kARJifu5vR4FjMcfC/5lqVs2mLSZ6GdKLEPsMZOVBpHz5X/qg==
+  /hyperapp/2.0.4:
+    dev: false
+    resolution:
+      integrity: sha512-1S0KIsyB97S/hH84GkuYjH/hmpnNQ546x16o+W7g/PnszxRPudJlwwGBKKnaRVL7x+dyevvuX4XLH67FooEt4w==
   /iconv-lite/0.4.24:
     dependencies:
       safer-buffer: 2.1.2
@@ -4178,7 +4191,7 @@ packages:
       figures: 2.0.0
       lodash: 4.17.15
       mute-stream: 0.0.7
-      run-async: 2.3.0
+      run-async: 2.4.0
       rxjs: 6.5.4
       string-width: 2.1.1
       strip-ansi: 5.2.0
@@ -4232,12 +4245,12 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha512-wPVv/y/QQ/Uiirj/vh3oP+1Ww+AWehmi1g5fFWGPF6IpCBCDVrhgHRMvrLfdYcwDh3QJbGXDW4JAuzxElLSqKA==
-  /ipaddr.js/1.9.0:
+  /ipaddr.js/1.9.1:
     dev: false
     engines:
       node: '>= 0.10'
     resolution:
-      integrity: sha512-M4Sjn6N/+O6/IXSJseKqHoFc+5FdGJ22sXqnjTpdZweHK64MzEPAyQZyEU3R/KRv2GLoa7nNtg/C2Ev6m7z+eA==
+      integrity: sha512-0KI/607xoxSToH7GjN1FfSbLoU0+btTicjsQSWQlh/hZykN8KpmMf7uYwPW3R+akZ6R/w18ZlXSHBYXiYUPO3g==
   /is-absolute-url/2.1.0:
     dev: true
     engines:
@@ -5181,8 +5194,13 @@ packages:
     resolution:
       integrity: sha1-O+39kaktOQFvz6ocaB6Pqhoe/ag=
   /minimist/1.2.0:
+    dev: true
     resolution:
       integrity: sha1-o1AIsg9BOD7sH7kU9M1d95omQoQ=
+  /minimist/1.2.5:
+    dev: false
+    resolution:
+      integrity: sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
   /mississippi/3.0.0:
     dependencies:
       concat-stream: 1.6.2
@@ -6446,7 +6464,6 @@ packages:
     resolution:
       integrity: sha512-VvivMrbvd2nKkiG38qjULzlc+4Vx4wm/whI9pQD35YrARNnhxeiRktSOhSukRLFNlzg6Br/cJPet5J/u19r/mg==
   /process-nextick-args/2.0.1:
-    dev: true
     resolution:
       integrity: sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==
   /process/0.11.10:
@@ -6474,15 +6491,15 @@ packages:
     dev: false
     resolution:
       integrity: sha1-zv9d2J0+XxD7deHo52vHWAGlnDQ=
-  /proxy-addr/2.0.5:
+  /proxy-addr/2.0.6:
     dependencies:
       forwarded: 0.1.2
-      ipaddr.js: 1.9.0
+      ipaddr.js: 1.9.1
     dev: false
     engines:
       node: '>= 0.10'
     resolution:
-      integrity: sha512-t/7RxHXPH6cJtP0pRG6smSr9QJidhB+3kXu0KgXnbGYMgzEnUxRQ4/LDdfOwZEMyIh3/xHb8PX3t+lfL9z+YVQ==
+      integrity: sha512-dh/frvCBVmSsDYzw6n926jv974gddhkFPfiN8hPOi30Wax25QZyZEGveluCgliBnqmuM+UJmBErbAUFIoDbjOw==
   /prr/1.0.1:
     dev: true
     resolution:
@@ -6709,7 +6726,6 @@ packages:
       safe-buffer: 5.1.2
       string_decoder: 1.1.1
       util-deprecate: 1.0.2
-    dev: true
     resolution:
       integrity: sha512-Ebho8K4jIbHAxnuxi7o42OrZgF/ZTNcsZj6nRKyUmkhLFq8CHItp/fy6hQZuZmP/n3yZ9VBUbp4zz/mX8hmYPw==
   /readable-stream/3.6.0:
@@ -7065,13 +7081,29 @@ packages:
     dev: true
     resolution:
       integrity: sha512-ii4iagi25WusVoiC4B4lq7pbXfAp3D9v5CwfkY33vffw2+pkDjY1D8GaN7spsxvCSx8dkPqOZCEZyfxcmJG2IA==
+  /rtf-parser/1.3.3:
+    dependencies:
+      iconv-lite: 0.4.24
+      readable-stream: 2.3.7
+    dev: false
+    resolution:
+      integrity: sha512-sz2eb4tcCFtwVfs5Ei/l3JnSQGqpDv+drFuNz/zwn2tA24cL2WTuk2VMo2bA4IcRgkn38juAOri2hB9nv85u2Q==
   /run-async/2.3.0:
     dependencies:
       is-promise: 2.1.0
+    dev: true
     engines:
       node: '>=0.12.0'
     resolution:
       integrity: sha1-A3GrSuC91yDUFm19/aZP96RFpsA=
+  /run-async/2.4.0:
+    dependencies:
+      is-promise: 2.1.0
+    dev: false
+    engines:
+      node: '>=0.12.0'
+    resolution:
+      integrity: sha512-xJTbh/d7Lm7SBhc1tNvTpeCHaEzoyxPrqNlvSdMfBTYwaY++UJFyXUOxAtsRUXjlqOfj8luNaR9vjCh4KeV+pg==
   /run-parallel/1.1.9:
     resolution:
       integrity: sha512-DEqnSRTDw/Tc3FXf49zedI638Z9onwUotBMiUFKmrO2sdFKIbXamXGQ3Axd4qgphxKB4kw/qP1w5kTxnfU1B9Q==
@@ -7583,7 +7615,6 @@ packages:
   /string_decoder/1.1.1:
     dependencies:
       safe-buffer: 5.1.2
-    dev: true
     resolution:
       integrity: sha512-n/ShnvDi6FHbbVfviro+WojiFzv+s8MPMHBczVePfUpDJLwoLT0ht1l4YwBCbi8pJAveEEdnkHyPyTP/mzRfwg==
   /string_decoder/1.3.0:
@@ -8389,7 +8420,6 @@ packages:
     resolution:
       integrity: sha1-9F8VDExm7uloGGUFq5P8u4rWv2E=
   /util-deprecate/1.0.2:
-    dev: true
     resolution:
       integrity: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
   /util.promisify/1.0.0:
@@ -8764,33 +8794,33 @@ specifiers:
   '@babel/plugin-transform-runtime': ^7.8.3
   '@babel/preset-env': ^7.8.4
   '@babel/runtime': ^7.8.4
-  '@osjs/calculator-application': ^1.2.4
-  '@osjs/cli': ^3.0.21
-  '@osjs/client': ^3.1.20
-  '@osjs/dialogs': ^3.0.17
-  '@osjs/draw-application': ^1.2.3
+  '@osjs/calculator-application': ^1.2.8
+  '@osjs/cli': ^3.0.24
+  '@osjs/client': ^3.1.26
+  '@osjs/dialogs': ^3.0.19
+  '@osjs/draw-application': ^1.2.7
   '@osjs/eslint-config': ^1.0.2
-  '@osjs/filemanager-application': ^1.3.9
-  '@osjs/freedesktop-sounds': ^3.0.1
-  '@osjs/gnome-icons': ^4.0.2
-  '@osjs/gui': ^4.0.29
-  '@osjs/htmlviewer-application': ^1.2.3
-  '@osjs/musicplayer-application': ^1.2.5
-  '@osjs/panels': ^3.0.22
-  '@osjs/preview-application': ^1.1.13
-  '@osjs/server': ^3.0.54
-  '@osjs/settings-application': ^1.1.2
-  '@osjs/standard-theme': ^4.0.7
+  '@osjs/filemanager-application': ^1.4.2
+  '@osjs/freedesktop-sounds': ^3.0.3
+  '@osjs/gnome-icons': ^4.0.5
+  '@osjs/gui': ^4.0.32
+  '@osjs/htmlviewer-application': ^1.2.6
+  '@osjs/musicplayer-application': ^1.2.8
+  '@osjs/panels': ^3.0.26
+  '@osjs/preview-application': ^1.1.17
+  '@osjs/server': ^3.0.56
+  '@osjs/settings-application': ^1.1.5
+  '@osjs/standard-theme': ^4.0.8
   '@osjs/stylelint-config': ^1.0.1
-  '@osjs/textpad-application': ^1.2.4
-  '@osjs/writer-application': ^0.1.0
+  '@osjs/textpad-application': ^1.2.7
+  '@osjs/writer-application': ^0.1.2
   babel-loader: ^8.0.6
   copy-webpack-plugin: ^5.1.1
   css-loader: ^3.4.2
   eslint: ^6.8.0
   file-loader: ^5.0.2
   html-webpack-plugin: ^3.2.0
-  hyperapp: ^1.2.10
+  hyperapp: ^2.0.4
   mini-css-extract-plugin: ^0.9.0
   node-sass: ^4.13.1
   optimize-css-assets-webpack-plugin: ^5.0.3
