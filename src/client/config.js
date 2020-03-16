@@ -35,6 +35,12 @@
 //
 
 export default {
+  auth: {
+    ui: {
+      title: 'Welcome to symbian',
+      stamp: 'revival version 1.0'
+    }
+  },
   desktop: {
     settings: {
       font: 'Roboto',
